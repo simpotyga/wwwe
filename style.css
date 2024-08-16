@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;       
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #ABA5A5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+ul li a{
+    font-size: 20 ;
+    font-weight: 500 ;
+    line-height: 26.38px;
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: red;
+
+}
+
+button{
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+    padding: 7px 45px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0,5s;
+}
+
+
+button:hover{
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+}
+
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+
+.card_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    background-color: rgba(20, 0, 255, 1);
+}
+
+.cards{
+    display: flex;
+    gap: 5%;
+}
+
+.hh{
+    color: #A24949;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 750px;
+    font-weight: 500;
+    font-size: 48px;
+    border-radius: 50px;
+    margin: 50px auto;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pp{
+    background-color: #1400FF;
+}
+
+p{
+    margin: 30px;
+}
+
+.btn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
